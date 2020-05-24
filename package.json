@@ -3,13 +3,6 @@
   "homepage": "https://wslee94.github.io/portfilio/",
   "name": "portfolio",
   "version": "0.1.0",
-  "devDependencies": {
-    "gh-pages": "^2.2.0"
-  },
-  "scripts": {
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
-  },
   "description": "wslee's portfolio site",
   "main": "index.js",
   "dependencies": {
