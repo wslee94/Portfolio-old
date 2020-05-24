@@ -1,0 +1,10 @@
+{
+  "homepage": "https://wslee94.github.io/portfilio/",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
+  }
+}
