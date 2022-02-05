@@ -12,8 +12,6 @@
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -38,7 +36,10 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+            <a class="nav-link js-scroll-trigger" href="#skills">Tech Stack</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#project">project</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
@@ -64,9 +65,20 @@
             <a class="text-none" href="mailto:leemuo123@gmail.com">leemuo123@gmail.com</a>
           </div>
 
-          <p class="lead">. 업무에 대한 신중한 태도</p>
-          <p class="lead">. 개방적이고 친화적인 성격</p>
-          <p class="lead mb-5">. 끊임없는 도전정신</p>
+          <div class="mb-5">
+            <p>
+              안녕하세요! 4년 차 프론드엔드 개발자 이원섭입니다. <br />
+              현재 React.js를 활용해 Legal tech platform & solution 개발 및 유지보수 업무를 하고 있습니다.<br /><br />
+
+              법률 서비스 업무를 진행하면서 고객과의 인터뷰 및 기획자와의 협업을 통해<br />
+              항상 고객 관점에서 필요한 것은 무엇인지, 조금 더 편리하게 만들 수 없는지 끊임없이 고민하는 개발자입니다.<br />
+              그 과정에서 삽질하고 매달리는 끈기와 열정은 누구보다 자신 있습니다.<br /><br />
+
+              또한, 새로운 것을 꾸준히 익히고 배움에 있어 두려움을 가지지 않는 것이 제 장점이라고 생각합니다.<br />
+              지식을 공유하고 습득하는 것을 좋아하여 기술 블로그를 운영하고 있습니다.
+            </p>
+          </div>
+
           <div class="social-icons">
             <a class="social-icon" href="https://github.com/wslee94" target="_blank"><i class="fab fa-github"></i></a>
             <a class="social-icon" href="https://wslee3.tistory.com/" target="_blank"><i class="fab fa-blogger"></i></a>
@@ -77,12 +89,13 @@
       <!-- Skills-->
       <section class="resume-section" id="skills">
         <div class="resume-section-content">
-          <h2 class="mb-5">Skills</h2>
-          <div class="subheading mb-3">Programming Languages & Tools</div>
+          <h2 class="mb-5">Tech Stack</h2>
           <ul class="list-inline dev-icons" style="font-size: 50px">
             <li class="list-inline-item"><i class="fab fa-html5"></i></li>
             <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
             <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+          </ul>
+          <ul class="list-inline dev-icons" style="font-size: 50px">
             <li class="list-inline-item"><i class="fab fa-react"></i></li>
             <li class="list-inline-item"><i class="fab fa-node"></i></li>
           </ul>
@@ -90,24 +103,95 @@
             <li class="list-inline-item"><i class="fab fa-npm"></i></li>
             <li class="list-inline-item"><i class="fab fa-git-square"></i></li>
           </ul>
+          <div class="text-none subheading">React</div>
+          <ul>
+            <li>주어진 요구사항에 맞게 원하는 기능을 개발할 수 있습니다.</li>
+            <li>SPA, Virtual DOM의 개념을 이해하고 있으며, 공통 컴포넌트 구현 및 React Hooks API를 통해 성능 최적화 경험이 있습니다.</li>
+            <li>전역 상태 관리는 Redux 라이브러리 및 비동기 통신을 위해 Redux-Saga 미들웨어를 사용한 경험이 있습니다.</li>
+            <li>모듈 번들러로 Webpack, ES6+ 문법 지원을 위해 Babel을 사용한 경험이 있습니다.</li>
+          </ul>
+          <div class="text-none subheading">Node</div>
+          <ul>
+            <li>Express, Swagger를 사용하여 REST API 설계 및 구현 경험이 있습니다.</li>
+          </ul>
         </div>
       </section>
       <hr class="m-0" />
-      <!-- Experience-->
-      <section class="resume-section" id="experience">
+      <!-- Project-->
+      <section class="resume-section" id="project">
         <div class="resume-section-content">
-          <h2 class="mb-5">Experience</h2>
+          <h2 class="mb-5">Project</h2>
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
               <h3 class="text-none mb-0">법무법인 관리 시스템 "CloudLaw" 개발/운영</h3>
               <div class="text-none subheading mb-3">HumaxIT & Humax Holdings</div>
-              <p>
-                <a class="text-none" href="https://home.cloudlawai.com/" target="_blank">'CloudLaw'</a>
-                는 법무법인의 업무를 시스템화하여 업무의 효율성을 높이기 위한
-                <a class="text-none" href="https://live.cloudlawai.com/" target="_blank">'서비스'</a>입니다.
-                <br />
-                <span class="small">React.js, JavaScript, Node.js, MySQL, Cloud(SaaS)</span>
-              </p>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="far fa-comment-dots"></i>Summary
+                </div>
+                <div>'CloudLaw'는 법무법인의 업무를 시스템화하여 업무의 효율성을 높이기 위한 서비스입니다.</div>
+              </div>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="fas fa-key"></i>Key Function
+                </div>
+                <div>
+                  <ul style="padding-inline-start: 20px">
+                    <li>사건(송무, 자문) 통합 관리</li>
+                    <li>법원 기일 및 일정 관리</li>
+                    <li>메일 회신 내역 관리 및 연동</li>
+                    <li>산출물(Paper)관리</li>
+                  </ul>
+                </div>
+              </div>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="far fa-hand-paper"></i>Part
+                </div>
+                <div>
+                  <ul style="padding-inline-start: 20px">
+                    <li>페이지 개발 및 UI/UX 개선</li>
+                    <li>최적화 (렌더링 이슈로 인한 버벅임 등)</li>
+                    <li>공통 컴포넌트 개발 및 유지보수</li>
+                    <li>메일 회신 이력 서비스 개발 및 유지보수</li>
+                    <li>요구사항 명세 (변호사 인터뷰, 법무법인 파견 등) 및 일정관리</li>
+                    <li>ERD 설계 및 Node Express Server API 구현</li>
+                  </ul>
+                </div>
+              </div>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="fas fa-tools"></i>Tech Stack
+                </div>
+                <div>React.js, JavaScript, Node.js, MySQL, Cloud(SaaS)</div>
+              </div>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="fas fa-camera"></i>Screenshot
+                </div>
+                <div>
+                  <a data-gallery="cloudlaw" href="assets/img/project/cloudlaw_home.png">
+                    <img width="250px" src="assets/img/project/cloudlaw_home.png" />
+                  </a>
+                  <a data-gallery="cloudlaw" href="assets/img/project/cloudlaw_case.png">
+                    <img width="250px" src="assets/img/project/cloudlaw_case.png" />
+                  </a>
+                  <a data-gallery="cloudlaw" href="assets/img/project/cloudlaw_search.png">
+                    <img width="250px" src="assets/img/project/cloudlaw_search.png" />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="fas fa-link"></i>Link
+                </div>
+                <div>
+                  <ul style="padding-inline-start: 20px">
+                    <li><a class="text-none" href="https://home.cloudlawai.com/" target="_blank">홈페이지</a></li>
+                    <li><a class="text-none" href="https://live.cloudlawai.com/" target="_blank">서비스</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <div class="flex-shrink-0">
               <span class="text-primary">2019-05 - Present</span>
@@ -117,39 +201,83 @@
             <div class="flex-grow-1">
               <h3 class="text-none mb-0">기업용 법무 관리 시스템 "Lawai" 개발/운영</h3>
               <div class="text-none subheading mb-3">HumaxIT & Humax Holdings</div>
-              <p>
-                <a class="text-none" href="https://www.law365ai.com/" target="_blank">'Lawai'</a>
-                는 기업의 법무 관련 업무를 시스템화하여 업무의 효율성을 높이기 위한
-                <a class="text-none" href="https://live.law365ai.com/" target="_blank">'서비스'</a>입니다.
-                <br />
-                <span class="small">React.js, JavaScript, Node.js, MySQL, Cloud(SaaS)</span>
-              </p>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="far fa-comment-dots"></i>Summary
+                </div>
+                <div>'Lawai'는 기업의 법무 관련 업무를 시스템화하여 업무의 효율성을 높이기 위한 서비스입니다.</div>
+              </div>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="fas fa-key"></i>Key Function
+                </div>
+                <div>
+                  <ul style="padding-inline-start: 20px">
+                    <li>표준계약서 기반 실제 계약서에 대한 자동 비교 검토</li>
+                    <li>메일 회신 내역 관리 및 연동</li>
+                    <li>첨부파일 본문 검색 기능</li>
+                  </ul>
+                </div>
+              </div>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="far fa-hand-paper"></i>Part
+                </div>
+                <div>
+                  <ul style="padding-inline-start: 20px">
+                    <li>페이지 개발 및 UI/UX 개선</li>
+                    <li>공통 컴포넌트 개발 및 유지보수</li>
+                    <li>메일 회신 이력 서비스 개발 및 유지보수</li>
+                  </ul>
+                </div>
+              </div>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="fas fa-tools"></i>Tech Stack
+                </div>
+                <div>React.js, JavaScript, Node.js, MySQL, Cloud(SaaS)</div>
+              </div>
+              <div style="margin-bottom: 20px">
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="fas fa-camera"></i>Screenshot
+                </div>
+                <div>
+                  <a data-gallery="lawai" href="assets/img/project/lawai_home.png">
+                    <img width="250px" src="assets/img/project/lawai_home.png" />
+                  </a>
+                  <a data-gallery="lawai" href="assets/img/project/lawai_contract.png">
+                    <img width="250px" src="assets/img/project/lawai_contract.png" />
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div style="font-size: 20px; display: flex; align-items: center">
+                  <i style="margin-right: 10px" class="fas fa-link"></i>Link
+                </div>
+                <div>
+                  <ul style="padding-inline-start: 20px">
+                    <li><a class="text-none" href="https://www.law365ai.com/" target="_blank">홈페이지</a></li>
+                    <li><a class="text-none" href="https://live.law365ai.com/" target="_blank">서비스</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
             <div class="flex-shrink-0">
               <span class="text-primary">2019-05 - Present</span>
             </div>
           </div>
-          <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div class="flex-grow-1">
-              <h3 class="text-none mb-0">법무법인 관리 시스템 "CloudLaw" 모바일앱 서버 개발</h3>
-              <div class="text-none subheading mb-3">Humax Holdings</div>
-              <p>
-                'CloudLaw' 기존 웹서비스와 별도로 Android, iOS 앱 출시를 위해 모바일앱 전용 서버 개발 경험이 있습니다.
-                <br />
-                <span class="small">Node.js, Swagger, REST API</span>
-              </p>
-            </div>
-            <div class="flex-shrink-0">
-              <span class="text-primary">2021-05 - Present</span>
-            </div>
-          </div>
+        </div>
+      </section>
+      <!-- Experience-->
+      <section class="resume-section" id="experience">
+        <div class="resume-section-content">
+          <h2 class="mb-5">Experience</h2>
           <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class="flex-grow-1">
               <h3 class="text-none mb-0">오픈소스 기여</h3>
               <div class="text-none subheading mb-3">node-pop3</div>
               <p>
-                POP3 클라이언트 오픈소스 라이브러리로 TLS 사용 시 TLS 관련 옵션들을 사용할 수 없었습니다. TLS minVersion을 지정해야 했기
-                때문에 Repository fork 한 후 소스 코드를 수정했습니다. 수정한 코드를 기준으로
+                POP3 클라이언트 오픈소스 라이브러리로 TLS 사용 시 TLS 관련 옵션들을 사용할 수 없었습니다. 이를 해결하기 위해
                 <a class="text-none" href="https://github.com/node-pop3/node-pop3/pull/20" target="_blank">PR(Pull Request)</a>을 작성했고,
                 코드는 반영되어 v0.7.0에 배포되었습니다.
                 <br />
@@ -157,8 +285,7 @@
               </p>
               <div class="text-none subheading mb-3">yapople</div>
               <p>
-                POP3 클라이언트 오픈소스 라이브러리로 소켓 통신 시 메모리 누수 이슈가 있어 Repository fork 한 후 소스 코드를 수정했습니다.
-                수정한 코드를 기준으로
+                POP3 클라이언트 오픈소스 라이브러리로 소켓 통신 시 메모리 누수 이슈가 있어
                 <a class="text-none" href="https://github.com/agsh/yapople/pull/30" target="_blank">PR(Pull Request)</a>을 작성했고, 코드는
                 반영되어 v0.4.7에 배포되었습니다.
                 <br />
@@ -217,5 +344,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- photoviewer -->
+    <link href="node_modules/photoviewer/dist/photoviewer.css" rel="stylesheet" />
+    <script src="node_modules/photoviewer/dist/photoviewer.js"></script>
+    <script src="js/photoviewer.js"></script>
   </body>
 </html>

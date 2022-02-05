@@ -34,6 +34,7 @@
     "object-assign": "^4.1.1",
     "once": "^1.4.0",
     "path-is-absolute": "^1.0.1",
+    "photoviewer": "^3.6.2",
     "pify": "^2.3.0",
     "pinkie": "^2.0.4",
     "pinkie-promise": "^2.0.1",
